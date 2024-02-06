@@ -4,6 +4,4 @@ pandas
 matplotlib
 Prophet
 ipywidgets
-plotly
-prophet.plot
-dash
+plotly==5.18.0
