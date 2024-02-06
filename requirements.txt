@@ -3,8 +3,5 @@ yfinance
 pandas
 matplotlib
 Prophet
-plot_plotly
-plot_components_plotly
-plotly.graph_objects
 ipywidgets
-plotly(5.18.0)
+
