@@ -3,4 +3,6 @@ yfinance
 pandas
 matplotlib
 Prophet
-plotly
+plot_plotly
+plot_components_plotly
+plotly.graph_objects
