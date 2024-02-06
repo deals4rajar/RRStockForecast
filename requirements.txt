@@ -4,5 +4,5 @@ pandas
 matplotlib
 Prophet
 ipywidgets
-plotly 0.5.8
+plotly
 prophet.plot
