@@ -5,3 +5,4 @@ matplotlib
 Prophet
 ipywidgets
 plotly 0.5.8
+prophet.plot
