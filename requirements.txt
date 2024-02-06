@@ -6,3 +6,4 @@ Prophet
 ipywidgets
 plotly
 prophet.plot
+dash
