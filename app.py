@@ -7,7 +7,7 @@ import streamlit as st
 from datetime import date
 
 #load Model 
-model = load_model(r"Bitcoin_Price_prediction_Model.keras")
+model = load_model("Bitcoin_Price_prediction_Model.keras")
 
 st.header('Bitcoin/Stock Price Prediction Model')
 st.subheader('Stock Market Predictor')
