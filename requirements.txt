@@ -6,5 +6,5 @@ Prophet
 ipywidgets
 plotly==5.18.0
 numpy
-sklearn
+scikit-learn
 keras
