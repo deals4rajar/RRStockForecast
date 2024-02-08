@@ -9,3 +9,4 @@ numpy
 scikit-learn
 keras
 tensorflow
+joblib
