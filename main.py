@@ -76,7 +76,7 @@ Weeklyforecast = model.predict(Weekly)
 
 # Show and plot forecast
 st.subheader('Weekly Forecast data')
-st.write(Weeklyforecast.tail())
+st.write(Weeklyforecast)
 
 st.subheader(f'Forecast plot for {n_years} years')
 
