@@ -4,10 +4,11 @@ import yfinance as yf
 from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
+import joblib
 from datetime import date
 
 #load Model 
-model = load_model("Bitcoin_Price_prediction_Model.keras")
+model = joblib.load("Bitcoin_Price_prediction_Model.keras")
 
 st.header('Bitcoin/Stock Price Prediction Model')
 st.subheader('Stock Market Predictor')
