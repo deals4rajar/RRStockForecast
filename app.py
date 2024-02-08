@@ -8,7 +8,7 @@ import joblib
 from datetime import date
 
 #load Model 
-model = joblib.load("Bitcoin_Price_prediction_Model.keras")
+model = joblib.load("Bitcoin_Price_prediction_Model.sav")
 
 st.header('Bitcoin/Stock Price Prediction Model')
 st.subheader('Stock Market Predictor')
