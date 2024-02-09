@@ -10,7 +10,7 @@ from datetime import date
 #load Model 
 @st.cache
 def load_model1():
-	  return joblib.load("Bitcoin_Price_prediction_Model.sav")
+	  return joblib.load("path/to/Bitcoin_Price_prediction_Model.sav")
 
 model = load_model1()
 
