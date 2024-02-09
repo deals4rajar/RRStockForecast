@@ -8,7 +8,11 @@ import joblib
 from datetime import date
 
 #load Model 
-model = joblib.load("Bitcoin_Price_prediction_Model.sav")
+@st.cache
+def load_model():
+	  return joblib.load("Bitcoin_Price_prediction_Model.sav")
+
+model = load_model()
 
 st.header('Bitcoin/Stock Price Prediction Model')
 st.subheader('Stock Market Predictor')
