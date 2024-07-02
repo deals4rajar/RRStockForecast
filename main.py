@@ -10,6 +10,7 @@ from prophet.plot import plot_plotly, plot_components_plotly
 
 import plotly.graph_objects as go
 
+np.float_ = np.float64
 
 st.title('Stock Forecast App')
 
