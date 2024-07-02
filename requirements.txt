@@ -5,7 +5,7 @@ matplotlib
 Prophet
 ipywidgets
 plotly==5.18.0
-numpy
+numpy==1.19.5
 scikit-learn
 keras
 tensorflow
