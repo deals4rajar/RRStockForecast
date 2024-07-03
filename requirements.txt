@@ -2,10 +2,10 @@ streamlit
 yfinance
 pandas
 matplotlib
-Prophet
+Prophet==1.1.5
 ipywidgets
 plotly==5.18.0
-numpy
+numpy==1.26.4
 docplex
 scikit-learn
 keras
